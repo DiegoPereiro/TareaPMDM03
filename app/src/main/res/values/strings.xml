@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Dos Activities</string>
+    <string name="etTexto_main">Mensaje a enviar</string>
 
     <string name="btn_enviar_dosActivities">Enviar</string>
     <string name="tvTitulo_dosActivities">Enviar</string>

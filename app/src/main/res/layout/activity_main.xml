@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnEnviar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
@@ -16,4 +16,20 @@
         android:onClick="lanzarSegundaActivity"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent"/>
+
+    <EditText
+        android:id="@+id/etMensaje"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="@string/etTexto_main"
+        android:inputType="textLongMessage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btnEnviar"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
 </android.support.constraint.ConstraintLayout>
