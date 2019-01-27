@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">TareaPMDM03</string>
+    <string name="app_name">Dos Activities</string>
+
+    <string name="btn_enviar_dosActivities">Enviar</string>
 </resources>
