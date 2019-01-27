@@ -2,4 +2,5 @@
     <string name="app_name">Dos Activities</string>
 
     <string name="btn_enviar_dosActivities">Enviar</string>
+    <string name="tvTitulo_dosActivities">Enviar</string>
 </resources>

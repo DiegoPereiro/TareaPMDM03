@@ -1,5 +1,6 @@
 package freijo.castro.diego.tareapmdm03;
 
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -19,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void lanzarSegundaActivity(View view){
         Log.d(LOG_TAG, "Boton segunda activity");
-
+        Intent intent=new Intent(this, SegundaActivity.class);
+        startActivity(intent);
     }
 }
